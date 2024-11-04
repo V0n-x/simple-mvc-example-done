@@ -353,7 +353,7 @@ const findDog = async (req, res) => {
   }
 
   // Otherwise, we got a result and will send it back to the user.
-  return res.json({ name: doc.name, beds: doc.age });
+  return res.json({ name: doc.name, age: doc.age });
 };
 
 const page4 = async (req, res) => {
